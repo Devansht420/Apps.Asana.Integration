@@ -1,0 +1,16 @@
+{
+    "id": "14af727e-61ba-4cd0-ac0c-4e9593ade632",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.44.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Devansh Tyagi",
+        "homepage": "NA",
+        "support": "NA"
+    },
+    "name": "AsanaApp",
+    "nameSlug": "asana",
+    "classFile": "AsanaApp.ts",
+    "description": "Rocket chat app for Asana integration",
+    "implements": []
+}
