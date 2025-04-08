@@ -4,17 +4,15 @@ import { getOrCreateDirectRoom } from "../helpers/getOrCreateDirectRoom";
 import { welcomeMessage } from "../helpers/welcomeMessage";
 import { sendMessage } from "./sendMessage";
 
-export async function directMessage(
-    user: IUser,
-    read: IRead,
-    modify: IModify
-) {
+export async function directMessage(user: IUser, read: IRead, modify: IModify) {
     const appUser = (await read.getUserReader().getAppUser()) as IUser;
     const members = [user.username, appUser.username];
 
     const room = await getOrCreateDirectRoom(read, modify, members);
 
-    const message = `Hello **${user.name}!** Thank you for installing the **Rocket.Chat - AI Emoji Embellisher App**. :raised_hands: \n` + welcomeMessage;
+    const message =
+        `Hello **${user.name}!** Thank you for installing the **Rocket.Chat - Asana Integration App**. :raised_hands: \n` +
+        welcomeMessage;
 
     const textMessageBuilder = modify
         .getCreator()

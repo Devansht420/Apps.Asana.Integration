@@ -1,6 +1,7 @@
-export const helpMessage = `*Help Message - AI Emoji Embellisher App*
-1. \`/embellish <user input text>\` -> Emojify and embellish your plain text messages :pencil:
-2. \`/embellish model\` -> Provides the current model being used for embellishment :computer:
-3. \`/embellish help\` - Provides list of essential subcommands to use the RC Embellisher App :thinking:
-
-Refer https://github.com/sandeepB3/Apps.Embellisher documentation for more details :rocket:`;
+export const helpMessage = `*How to use the Asana Integration App*
+1. \`/asana my-tasks\` -> Get the list of all the current tasks in your list :pencil:
+2. \`/asana projects\` -> Provides all the projects in workspace with all their tasks :computer:
+3. \`/asana help\` -> Provides list of essential subcommands to use the RC Asana integration App :thinking:
+4. \`/asana connect\` -> Connect your Rocket chat App with Asana by authorizing it :link:
+5. \`/asana summary\` -> Provides a Summary of your remaining tasks within the Rocket chat App :blog:
+6. \`/asana subscribe <resource-id>\` -> Creates a Webhook for the provided resource so that you get notified of all events within Rocket chat :blog:`;
